@@ -1,0 +1,111 @@
+<html>
+    <head>
+        <title>Dart Documentation</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Limelight&family=Odibee+Sans&family=Rubik:ital,wght@1,300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        <nav id="navbar">
+            <header><h1>Dart Documentation</h1></header>
+            <div id="all-links">
+                <a class="nav-link" href="#Introduction"><h2>Introduction</h2></a>
+                <a class="nav-link" href="#Hello_World"><h2>Hello World</h2></a>
+                <a class="nav-link" href="#Declaring_Variables"><h2>Declaring Variables</h2></a>
+                <a class="nav-link" href="#Data_Type"><h2>Data Type</h2></a>
+                <a class="nav-link" href="#Loops"><h2>Loops</h2></a>
+            </div>
+        </nav>
+        <div id="content">
+        <main id="main-doc">
+            <section id="Introduction" class="main-section">
+                <header>
+                    <h1>Introduction</h1>
+                </header>
+                <p>Dart is an open-source general-purpose programming language. It is originally developed by Google and later approved as a standard by ECMA. Dart is a new programming language meant for the server as well as the browser.</p>
+                <p>Introduced by Google, the Dart SDK ships with its compiler – the Dart VM. The SDK also includes a utility -dart2js, a transpiler that generates JavaScript equivalent of a Dart Script.</p>
+            </section>
+            <section id="Hello_World" class="main-section">
+                <header>
+                    <h1>Hello World</h1>
+                </header>
+                <p>Let us start with the traditional “Hello World” example −</p>
+                <code>main() { 
+                    print("Hello World!"); 
+                 }
+                </code>
+                <p>The main() function is a predefined method in Dart. This method acts as the entry point to the application. A Dart script needs the main() method for execution. print() is a predefined function that prints the specified string or value to the standard output i.e. the terminal.</p>
+                <p>The output of the above code will be −</p>
+                <code>
+                    Hello World!
+                </code>
+            </section>
+            <section id="Declaring_Variables" class="main-section">
+                <header>
+                    <h1>Declaring Variables</h1>
+                </header>
+                <p>A variable is “a named space in the memory” that stores values. In other words, it acts a container for values in a program. Variable names are called identifiers. Following are the naming rules for an identifier −</p>
+                <ul>
+                    <li>Identifiers cannot be keywords.</li>
+                    <li>Identifiers can contain alphabets and numbers.</li>
+                    <li>Identifiers cannot contain spaces and special characters, except the underscore (_) and the dollar ($) sign.</li>
+                    <li>Variable names cannot begin with a number.</li>
+                </ul>
+            </section>
+            <section id="Data_Type" class="main-section">
+                <header>
+                    <h1>Data Type</h1>
+                </header>
+                <p>One of the most fundamental characteristics of a programming language is the set of data types it supports. These are the type of values that can be represented and manipulated in a programming language.</p>
+                <p>The Dart language supports the following types−</p>
+                <ul>
+                    <li>Numbers</li>
+                    <li>Strings</li>
+                    <li>Booleans</li>
+                    <li>Lists</li>
+                    <li>Maps</li>
+                </ul>
+            </section>
+            <section id="Loops" class="main-section">
+                <header>
+                    <h1>Loops</h1>
+                </header>
+                <p>At times, certain instructions require repeated execution. Loops are an ideal way to do the same. A loop represents a set of instructions that must be repeated. In a loop’s context, a repetition is termed as an iteration.</p>
+                <p>Types Of Loops:</p>
+                <ul>
+                    <li>While Loop</li>
+                    <li>For Loop</li>
+                    <li>Do While Loop</li>
+                </ul>
+                <h4>While Loop:</h4>
+                <p>The while loop executes the instructions each time the condition specified evaluates to true. In other words, the loop evaluates the condition before the block of code is executed.</p>
+                <p>Syntax:</p>
+                <code>
+                    while (expression) {
+                        Statement(s) to be executed if expression is true  
+                     }
+                </code>
+                <h4>For Loop:</h4>
+                <p>The for loop is an implementation of a definite loop. The for loop executes the code block for a specified number of times. It can be used to iterate over a fixed set of values, such as an array.</p>
+                <p>Syntax:</p>
+                <code>
+                    for (initial_count_value; termination-condition; step) { 
+                        //statements 
+                     } 
+                </code>
+                <h4>Do While Loop:</h4>
+                <p>The do…while loop is similar to the while loop except that the do...while loop doesn’t evaluate the condition for the first time the loop executes. However, the condition is evaluated for the subsequent iterations. In other words, the code block will be executed at least once in a do…while loop.</p>
+                <p>Syntax:</p>
+                <code>
+                    do {  
+                        Statement(s) to be executed;  
+                     } while (expression); 
+                </code>
+            </section>
+        </main>
+        </div>
+
+    </body>
+</html>

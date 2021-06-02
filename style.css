@@ -30,6 +30,7 @@
 }
 #navbar{
     position: fixed;
+    background-color: #fff;
 }
 
 nav h1{
@@ -40,6 +41,7 @@ nav h1{
     text-align: center;
     margin-top: 50px;
     width: 250px; 
+    
 }
 p{
     font-family: 'Rubik', sans-serif;
@@ -91,10 +93,10 @@ ul{
         border-left: none;
         border-top: 5px dashed #000;    
         left: 5px;
-        
+        height: 50%;
     }
     main{
-        height: 50%;
+        height: 100%;
         margin-top: 250px;
         background-color: blue;
     }

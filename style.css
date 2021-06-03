@@ -96,18 +96,18 @@ ul{
     }
     main{
         height: 65vh;
-        margin-top: 35vh;
+        margin-top: 38vh;
     }
     
     #all-links{
         width: 100%;
-        max-height: 15vh;
+        max-height: 22vh;
         overflow-y: scroll;
         
     }
     nav h1{
         width: 100%;
-        top: 10px;
+        top: 5px;
     }
 }
 

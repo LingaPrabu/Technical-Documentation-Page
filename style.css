@@ -26,7 +26,7 @@
     width: 250px;
     height: 100%;
     overflow-y: scroll;
-    margin-top: 90px;  
+    margin-top: 20px;  
 }
 #navbar{
     position: fixed;
@@ -34,7 +34,6 @@
 }
 
 nav h1{
-    position: fixed;
     font-family: 'Odibee Sans', cursive;
     font-weight: 900;
     font-size: 30px;
@@ -89,25 +88,31 @@ ul{
 }
 
 @media (max-width: 700px){  
-    #main-doc{
-        border-left: none;
-        border-top: 5px dashed #000;    
-        left: 5px;
+    html{
+        overflow-y: hidden;
     }
-    main{
-        height: 65vh;
-        margin-top: 38vh;
+    #main-doc{
+        position: relative;
+        border-left: none;
+        border-top: 5px dashed #000;  
+        background-color: #fff;  
+        left: 0px;
+        height: 52%;
+        top:47.5vh;
     }
     
     #all-links{
-        width: 100%;
-        max-height: 22vh;
+        position: relative;
+        width: 150%;
+        height: 40vh;
         overflow-y: scroll;
-        
+        margin-top: 1vh;
     }
+    
     nav h1{
-        width: 100%;
-        top: 5px;
+        width: 150%;
+        margin-top: 0;
+        font-size: 9vmin;
     }
 }
 

@@ -95,13 +95,13 @@ ul{
         left: 5px;
     }
     main{
-        height: 55%;
-        margin-top: 250px;
+        height: 65vh;
+        margin-top: 35vh;
     }
     
     #all-links{
         width: 100%;
-        max-height: 25%;
+        max-height: 15vh;
         overflow-y: scroll;
         
     }
